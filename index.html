@@ -1,58 +1,116 @@
 <!DOCTYPE html>
-<html lang=pt-br">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
 <body>
-    <header class="header">
-        <a href="a" class="logo"><span>Rafael</span> Lopes</a>
+  <header class="header">
+    <a href="#home" class="logo"><span>Rafael</span> Lopes</a>
 
-        <nav class="navbar">
-        <a href="a" class="active">Portfólio</a>
-        <a href="a">Home</a>
-        <a href="a">Projetos</a>
-        <a href="a">Experiências</a> 
-        <a href="a">Certificados</a>
-        </nav>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
 
-        <a href="a" class="contato">Entre em contato</a>
-    </header>
+    <a href="#contato" class="contato">Entre em contato</a>
+  </header>
 
-    <section class="home">
-        <div class="home-content">
-            <h3>Olá, eu sou</h3>
-            <h1><span>Rafael Lopes<br></span></h1>
-            <h3>Analista de Sistemas</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quis magni recusandae nobis explicabo at assumenda tempora deleniti velit omnis sit ab nisi exercitationem, perspiciatis ullam eligendi, doloremque id Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio velit accusamus quibusdam, tempore ipsam omnis quasi rerum dolorum accusantium inventore recusandae eaque cupiditate consectetur ducimus amet soluta eius odio.</p>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Olá, eu sou</h3>
+      <h1><span>Rafael Lopes<br></span></h1>
+      <h3>Analista de Sistemas</h3>
+      <p>
+        Meu nome é Rafael e sou estudante do 2º período de Análise e Desenvolvimento de Sistemas (ADS) no IFPE. Tenho sólidos conhecimentos em Python, Java e JavaScript, e já desenvolvi projetos que envolvem a criação e consumo de APIs e a modelagem de bancos de dados. Trabalho com metodologias ágeis e sou movido pela busca de soluções eficientes e escaláveis. Neste portfólio, apresento meus principais projetos, refletindo meu objetivo de crescer como desenvolvedor, sempre aprendendo e evoluindo.
+      </p>
 
-            <div class="btn-box">
-                <a href="#" class="btn-1">Conexão</a>
-                <a href="https://drive.google.com/file/d/1bwwE60OSqJOMUSdyZjnU9eWlLOpmxKCq/view?usp=sharing" class="btn-2">Download CV</a>
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="foto.jpg" alt="" >
-        </div>
-    </section>
+      <div class="btn-box">
+        <a href="https://www.linkedin.com/in/rafinhoo/" class="btn-1">Conexão</a>
+        <a href="https://drive.google.com/file/d/1bwwE60OSqJOMUSdyZjnU9eWlLOpmxKCq/view?usp=sharing" class="btn-2" target="_blank">Download CV</a>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="foto.jpg" alt="Minha Foto" />
+    </div>
+  </section>
 
-    <section class="about">
-        <div class="about-img">
-            <img src="foto.jpg" alt="">
-        </div>
+  <section class="about" id="projetos">
+    <div class="project">
+      <div class="about-img">
+        <img src="foto.jpg" alt="Projeto 1" />
+      </div>
+      <div class="about-content">
+        <h3>Projeto 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptate eum nam repellendus sequi, inventore debitis suscipit possimus tempora doloremque laborum molestias voluptatem sunt. Enim fugit similique ratione maxime aliquid! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro nihil voluptatem aut quas rerum, eius error. Beatae alias dolorum, placeat exercitationem eligendi, magni nemo itaque dicta, corporis consectetur illo ullam.</p>
+        <a href="#" class="btn-2">Ver projeto</a>
+      </div>
+    </div>
 
-        <div class="about-content">
-            <h2 class="heading">
-                About <span> Me</span>
-            </h2>
-            <h3>Data <span>Science</span></h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem voluptas optio eligendi quo, vel recusandae quos modi similique in porro voluptatem accusamus cum error qui alias provident id, libero excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit maxime nesciunt modi ab incidunt facilis vitae natus expedita, enim quia veniam voluptatibus ratione dolores tempore ipsa voluptatum voluptates id. Necessitatibus.</p>
-            <a href="a" class="btn-2">Experience</a>
-        </div>
-    </section>
-    
+    <div class="project">
+      <div class="about-img">
+        <img src="foto.jpg" alt="Projeto 2" />
+      </div>
+      <div class="about-content">
+        <h3>Projeto 2</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quibusdam reprehenderit quis modi veritatis qui eos alias, nobis delectus omnis sapiente quo quas in cumque laudantium. Alias ipsa tempora ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas obcaecati ab repellat, tempore ipsam illo, magnam assumenda explicabo dolorem, ipsa blanditiis in beatae vero fugiat suscipit laboriosam est molestias labore?</p>
+        <a href="#" class="btn-2">Ver projeto</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="about-img">
+        <img src="foto.jpg" alt="Projeto 3" />
+      </div>
+      <div class="about-content">
+        <h3>Projeto 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolore aperiam optio dolores doloribus obcaecati libero molestiae repellat maiores tempora, nobis asperiores minima praesentium eveniet, recusandae officiis nulla odit quam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, fugit adipisci delectus ea optio ad possimus quasi molestias! Repudiandae porro tempora, modi suscipit architecto neque eius quod asperiores reiciendis error.</p>
+        <a href="#" class="btn-2">Ver projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-form" id="contato">
+    <h2 class="contact-me">Entre em contato</h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Nome Completo" />
+        <input type="email" placeholder="Email" />
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Telefone" />
+        <input type="text" placeholder="Contexto" />
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem a enviar"></textarea>
+
+      <input type="submit" value="Enviar" class="btn-1" />
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+      <a href="#"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <ul class="list">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#contato">Me contate</a></li>
+      <li><a href="#">Política de privacidade</a></li>
+    </ul>
+
+    <p class="copyright">©2025 Rafael | Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
